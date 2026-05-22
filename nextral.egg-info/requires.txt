@@ -1,0 +1,13 @@
+textual>=0.61
+psutil>=5.9
+rich>=13
+paramiko>=3.4
+cryptography>=42
+
+[:sys_platform == "win32"]
+pywinpty>=2.0
+
+[dev]
+pytest
+pytest-asyncio
+pytest-mock

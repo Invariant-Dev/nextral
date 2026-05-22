@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: nextral
+Version: 0.1.0
+Requires-Python: >=3.11
+Requires-Dist: textual>=0.61
+Requires-Dist: psutil>=5.9
+Requires-Dist: rich>=13
+Requires-Dist: paramiko>=3.4
+Requires-Dist: cryptography>=42
+Requires-Dist: pywinpty>=2.0; sys_platform == "win32"
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-asyncio; extra == "dev"
+Requires-Dist: pytest-mock; extra == "dev"
